@@ -1,0 +1,62 @@
+<snippet>
+<content>
+<![CDATA[
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="このページについての説明">
+<title>TITLE</title>
+
+<meta property="og:title" content="TITLE">
+<meta property="og:type" content="website または article">
+<meta property="og:description" content="このサイトについての説明">
+<meta property="og:image" content="イメージurl_600px330px">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<!--[if lt IE 7]><body class="ie6"><![endif]-->
+<!--[if IE 7]><body class="ie7"><![endif]-->
+<!--[if IE 8]><body class="ie8"><![endif]-->
+<!--[if IE 9]><body class="ie9"><![endif]-->
+<!--[if gt IE 9><!--><body><!--<![endif]-->
+
+<!-- wrapper -->
+<div id="wrapper">
+<header>
+<div id="header">
+${1}
+</div>
+</header>
+
+<nav>
+<div id="nav">
+
+</div>
+</nav>
+
+<footer>
+<div id="footer">
+
+</div>
+</footer>
+</div>
+<!-- wrapper end -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script>
+window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')
+</script>
+</body>
+</html>
+
+]]>
+</content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>basehtml5</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.html</scope> -->
+</snippet>

@@ -1,0 +1,90 @@
+<snippet>
+<content>
+<![CDATA[
+@charset "utf-8";
+
+/*
+-----------------------------------------------
+▼基本デザイン 2014.12
+----------------------------------------------- */
+
+html {
+-webkit-text-size-adjust:100%;
+-webkit-font-smoothing:subpixel-antialiased;
+-moz-osx-font-smoothing:auto;
+}
+
+body, div, span, h1, h2, h3, h4, h5, h6, p, a,
+ul, ol, li, dl, dt, dd, strong, em, small, sub, sup,
+img, table, tr, th, td, address, cite, code, q, form,
+footer, header, hgroup, menu, nav, section, aside, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+line-height:1.5;
+vertical-align:baseline;
+background:transparent;
+word-break:normal;
+word-wrap:break-word;
+}
+
+body {
+font-family:"Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
+font-size:14px;
+letter-spacing:0;
+color:#333;
+}
+img {
+vertical-align:bottom;
+}
+area {
+outline:none;
+}
+ul,ol {
+list-style-type:none;
+}
+h1,h2,h3,h4,h5,h6,strong {
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+}
+table {
+border-collapse:collapse;
+}
+
+a {color:#08c;}
+a:hover,a:active {color:#903;}
+
+.cboth {
+clear:both;
+height:0;
+}
+/* IE 用▼ */
+* html .cboth {
+height:.1em;
+overflow:hidden;
+margin-top:-.1em;
+}
+hr {
+visibility:hidden;
+border:0;
+}
+
+/* clearfix */
+.cf:before,
+.cf:after {content:""; display:table;}
+.cf:after {clear:both;}
+
+${1}
+
+/* css_end */
+
+]]>
+</content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>basecss</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.css</scope> -->
+</snippet>

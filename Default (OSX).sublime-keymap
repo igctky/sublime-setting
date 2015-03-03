@@ -1,0 +1,6 @@
+[
+{ "keys": ["shift+enter"], "command": "insert", "args": {"characters": "<br />" } },
+{ "keys": ["ctrl+enter"], "command": "insert", "args": {"characters": "<br>" } },
+{ "keys": ["super+right"], "command": "move_to", "args": { "to": "hardeol" } },
+{ "keys": ["super+left"], "command": "move_to", "args": { "to": "hardbol" } }
+]

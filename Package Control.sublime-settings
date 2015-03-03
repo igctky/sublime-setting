@@ -1,0 +1,40 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"AutoFileName",
+		"BracketHighlighter",
+		"Codecs33",
+		"ConvertToUTF8",
+		"CSS Snippets",
+		"CSScomb",
+		"CSSLint",
+		"Emmet",
+		"Goto-CSS-Declaration",
+		"Hayaku - tools for writing CSS faster",
+		"HTML5",
+		"Japanize",
+		"jQuery",
+		"JSHint",
+		"LESS",
+		"LiveReload",
+		"OmniMarkupPreviewer",
+		"Package Control",
+		"Sass",
+		"SCSS",
+		"SCSS Snippets",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-phplint",
+		"Tag",
+		"Terminal",
+		"Theme - Flatland",
+		"Theme - itg.flat",
+		"Theme - Spacegray",
+		"View In Browser",
+		"WordPress"
+	]
+}
