@@ -7,7 +7,7 @@ Packagecontrolのインストールが必要です。
 
 ***
 
-import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
+`import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)`
 
 ***
 
@@ -26,12 +26,12 @@ itg.flatテーマを使用しています。
 お気に入りのテーマを自由に設定してください。
 
 ###基本型の展開について
-basehtml5 + Tabでhtml5基本型を展開
+basehtml5 + Tabでhtml5基本型を展開  
 basecss + Tabでリセットcssを展開
 
 ###キーバインドについて
-Ctrl + Enter で＜br＞
-Shift + Enter で＜br/＞
+Ctrl + Enter で`<br>`  
+Shift + Enter で`<br/>`
 
 
 
