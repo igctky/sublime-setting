@@ -22,7 +22,7 @@
 	"show_encoding": true,
 	"tab_size": 2,
 	"theme": "itg.flat.dark.sublime-theme",
-	"translate_tabs_to_spaces": true,
+	"translate_tabs_to_spaces": false,
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true
