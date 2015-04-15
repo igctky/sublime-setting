@@ -3,11 +3,6 @@
 <![CDATA[
 @charset "utf-8";
 
-/*
------------------------------------------------
-▼基本デザイン 2014.12
------------------------------------------------ */
-
 html {
 -webkit-text-size-adjust:100%;
 -webkit-font-smoothing:subpixel-antialiased;
@@ -46,7 +41,7 @@ outline:none;
 ul,ol {
 list-style-type:none;
 }
-h1,h2,h3,h4,h5,h6,strong {
+h1,h2,h3,h4,h5,h6,strong,th {
 -webkit-font-smoothing:antialiased;
 -moz-osx-font-smoothing:grayscale;
 }
