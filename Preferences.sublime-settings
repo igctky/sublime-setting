@@ -11,18 +11,25 @@
 	"draw_indent_guides": true,
 	"draw_white_space": "all",
 	"enable_emmet_keymap": true,
+	"find_selected_text": true,
 	"font_face": "MigMix 1M Regular",
-	"font_size": 14.0,
+	"font_size": 13.0,
 	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
 	"indent_subsequent_lines": true,
+	"itg_scrollbar_small": true,
+	"itg_sidebar_tree_small": true,
+	"itg_small_tabs": true,
+	"overlay_scroll_bars": "disabled",
+	"scroll_past_end": true,
 	"show_encoding": true,
+	"smart_indent": true,
 	"tab_size": 2,
-	"theme": "itg.flat.dark.sublime-theme",
-	"translate_tabs_to_spaces": false,
+	"theme": "itg.flat.dark.aqua.sublime-theme",
+	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true
